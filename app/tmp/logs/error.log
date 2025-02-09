@@ -1,0 +1,11 @@
+2016-01-18 03:07:10 Error: [MissingActionException] Action PagesController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'index',
+)
+Request URL: /Ch17/Ch17_2/Pages/index
+Stack Trace:
+#0 C:\AppServ\www\Ch17\Ch17_2\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\AppServ\www\Ch17\Ch17_2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 C:\AppServ\www\Ch17\Ch17_2\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
